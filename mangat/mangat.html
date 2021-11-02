@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pelemparan Dadu Ular Tangga</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">
+                <h1>Pelemparan Dadu Ular Tangga</h1>
+            </div>
+        </div>
+    </body>
+    <div id="content">
+        <div>
+            <table border="1 solid #00f">
+                <tr>
+                    <td>Dadu</td>
+                    <td>Gambar</td>
+                    <td>Value</td>
+                    <td>Lempar Dadu</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td><img  id="die-1"></td>
+                    <td id="total1"></td> 
+                    <td><button onclick="roll1()">Lempar Dadu A</button></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td><img  id="die-2"></td>
+                    <td id="total2"></td>
+                    <td><button onclick="roll2()">Lempar Dadu B</button></td>
+                </tr>
+            </table>
+            <div>
+                <button onclick="roll3()">Lempar Dadu A dan B</button>
+            </div>
+            <div>
+                <button onclick="sumUp()">Total Langkah</button>
+            </div>
+            <script src="MANGAT.js" charset="uth"></script>
+        </div>
+    </div>
+</html>
